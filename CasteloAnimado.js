@@ -1,0 +1,8 @@
+//note("d4 g4 a#4 d5 ~ c5 a#4 a4 a#4 g4 a#4 d5 f5 ~ d5 f5 a5 g5 f5 e5 f5 g5")
+note("d4 g4 a#4 d5 ~ ~ c5 a#4 a4 a#4 ~ ~ ~ d4 g4 a#4 g5 ~ g5 ~ g5 a5 e#5 f5 e#5 g5").color("#B6D16B")
+    .sound("piano")
+    .room(0.8)
+    //.fast()
+    .slow(4.5)
+    .pianoroll({labels: 1})
+    .color("#50ADBF")
