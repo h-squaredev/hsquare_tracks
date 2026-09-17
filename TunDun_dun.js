@@ -1,53 +1,30 @@
-await initHydra({feedStrudel:1})
-//
-src(s0).kaleid(H("<8 9 5 6>"))
-//.diff(osc(1,0.5,5))
-.modulateScale(osc(2, -0.25, 5))
-.out()
-//
+//Feito por &HSQUARE / (h-squaredev)
 
+// c==dó d==ré e==mi f==fá g==sol a==lá b==Si
 
-all(x=>x.fft(4).scope({pos:0,smear:.95}))
+//Sol Sol Lá Sol Dó Si (Pa-ra-béns pra vo-cê)
+//Sol Sol Lá Sol Ré Dó (Nes-ta da-ta que-ri-da)
+//Sol Sol Sol(agudo) Mi Dó Si Lá (Mui-tas fe-li-ci-da-des)
+//Fá Fá Mi Dó Ré Dó (Mui-tos a-nos de vi-da)
+$lead: note(`
+     g5 g5 a5 g5 c5 b5 ~ 
+     g5 g5 a5 g5 d5 c5 ~
+     g5 g5 g6 e5 c5 b5 a5 ~ 
+     f5 f5 e5 c5 d5 c5 
+  `).color("cyan")
+  .sound("piano")
+  .slow(3.5)
+  .gain(1.5)
+  //.sound("sawtooth") // <-- Retro Game
+  //.jux(rev)
+  //.room(1)
+  .pianoroll({labels: 1}).color("white")
 
-setcpm(120/4)
-
-const velocidade = "1"
-
-//trilha sonora 
-
-$lead: s("clavisynth sds5_bd*4")
-  .gain("0.3 0.7 0.9")
-  .color("red purple")
-  .coarse("<16 32>")  //grosseria
-  .fast(velocidade)
-
-_$sd: s("sd sd ~ sd*2")
-  .s("gm_voice_oohs:6")
-  .jux(iter(4))
-  .room(1.2)
-  .color("magenta")
-  .gain("2 2.5 3")
-  ._spiral({ steady: .46 })
-  .fast(velocidade)
-
-
-_$note: note("c4 d4 c4 e4".slow(2))
-  .gain("0.45")
-  .s("pulse")
-  .jux(press)
-  .fast(velocidade)
-
-_$ss_hh_cp: s("[cp, ss] ~ ss, hh*4")
-  //.bank("RolandTR808")
-  .crush("<4 3 2>")
-  .decay("1 2 2.5 2 1")
-  .color("cyan")
-  .fast(velocidade)
-
-_$pratos:  s("<clash:1 clash:2>, clash")
-  .gain("0.4 1 2")
-  .delay(0.3)
-  .fast(velocidade)
-
-
-  
+_$bd_hh: s("bd bd bd bd, hh hh")
+  .bank("rolandTR909")
+  .shape(0.7)
+  .room(0.5)
+  .color ("red")
+  ._scope()
+_$espacial: s("[space:11]*3 ~ space:10")
+  .gain(0.5)

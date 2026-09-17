@@ -15,7 +15,7 @@ $lead: note(`
   .sound("piano")
   .slow(3.5)
   .gain(1.5)
-  //.sound("sawtooth")
+  //.sound("sawtooth") // <-- Retro Game
   //.jux(rev)
   //.room(1)
   .pianoroll({labels: 1}).color("white")
@@ -26,6 +26,5 @@ _$bd_hh: s("bd bd bd bd, hh hh")
   .room(0.5)
   .color ("red")
   ._scope()
-  
 _$espacial: s("[space:11]*3 ~ space:10")
   .gain(0.5)
