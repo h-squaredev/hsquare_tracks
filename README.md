@@ -28,7 +28,7 @@ Eu utilizo esse `_` propositalmente para deixar essas camadas sonoras "mutadas" 
 
 Se você quiser ouvir a versão completa da faixa imediatamente, basta remover todos os `_` antes dos cifrões (`$`) e pressionar `Ctrl + Enter`!
 
-O mesmo vale para algumas linhas que estão comentadas (*//*). 
+O mesmo vale para algumas linhas que estão comentadas ( `//` ). 
 
 ---
 *Live coding por [h-squaredev](https://github.com/h-squaredev)*
