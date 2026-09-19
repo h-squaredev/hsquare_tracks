@@ -4,4 +4,4 @@ description: Repositório de áudios e faixas para Strudel REPL
 plugins:
   - jekyll-remote-theme
 
-remote_theme: pages-themes/hack
+remote_theme: pages-themes/hacker
