@@ -1,0 +1,11 @@
+title: HSquare Tracks
+description: Repositório de áudios e faixas para Strudel REPL
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/hack
+
+# Garantia de que pastas com ponto ou ficheiros específicos não sejam ignorados
+include:
+  - icon
