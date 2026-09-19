@@ -11,9 +11,9 @@ Tabela centralizadora de tracks para uso integrado com o Miro.
 
 | Faixa / Experimento | Arquivo Fonte | Ouvir no Strudel | Descrição / Anotações |
 | :--- | :--- | :--- | :--- |
-| **01 - CasteloAnimado** | [`CasteloAnimado.js`](./CasteloAnimado.js) | [▶ Executar no Strudel][link_CasteloAnimado] | Brincando em copiar a trilha sonora do Castelo Animado |
-| **02 - Parabéns** | [`Parabens.js`](./Parabens.js) | [▶ Executar no Strudel][link_Parabens] | Minha primeira música em código (feito por mim) tendo como referência a famosa celebração "Parabéns para você" |
-| **03 - TunDun_dun** | [`TunDun_dun.js`](./TunDun_dun.js) | [▶ Executar no Strudel][link_TunDun_dun] | Experimento com audiovisual misturando os visuais psicodélicos do Hydra com as batidas eletrônicas do Strudel. Tem uma pegada glitch futurista, batidas marcadas de sintetizadores (clavisynth), texturas vocais robotizadas (gm_voice_oohs) e distorção analógica (crush, coarse). |
+| **01 - CasteloAnimado** | [`CasteloAnimado.js`](./CasteloAnimado.js) | [▶ Executar][link_CasteloAnimado] | Brincando em copiar a trilha sonora do Castelo Animado |
+| **02 - Parabéns** | [`Parabens.js`](./Parabens.js) | [▶ Executar][link_Parabens] | Minha primeira música em código (feito por mim) tendo como referência a famosa celebração "Parabéns para você" |
+| **03 - TunDun_dun** | [`TunDun_dun.js`](./TunDun_dun.js) | [▶ Executarl][link_TunDun_dun] | Experimento com audiovisual misturando os visuais psicodélicos do Hydra com as batidas eletrônicas do Strudel. Tem uma pegada glitch futurista, batidas marcadas de sintetizadores (clavisynth), texturas vocais robotizadas (gm_voice_oohs) e distorção analógica (crush, coarse). |
 
 
 ## Como reproduzir
