@@ -13,6 +13,10 @@ header {
   border-color: #a855f7 !important;
 }
 
+#a-title h1::before {
+  content: "& " !important;
+}
+
 a,
 a:visited,
 h1, h2, h3, h4, h5, h6 {
