@@ -4,6 +4,19 @@
 @import "{{ site.theme }}";
 
 /* Sobrescreve o verde padrão do tema Hacker por roxo */
+header {
+  border-color: #a855f7 !important;
+}
+
+/* Garante que qualquer outra borda esquecida também fique roxa */
+*, *::before, *::after {
+  border-color: #a855f7 !important;
+}
+
+#a-title h1::before {
+  content: "& " !important;
+}
+
 a,
 a:visited,
 h1, h2, h3, h4, h5, h6 {
