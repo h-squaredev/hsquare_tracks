@@ -1,4 +1,35 @@
+---
+layout: default
+title: Home
+---
+
+<style>
+  /* Sobrescreve as variáveis e cores do tema Hack para Roxo */
+  :root {
+    --primary-color: #a855f7 !important; /* Roxo vibrante */
+    --accent-color: #c084fc !important;  /* Roxo claro */
+  }
+
+  /* Aplica o roxo nos elementos de texto, links e bordas que usam verde */
+  a, a:visited, h1, h2, h3, h4, h5, h6, .highlight, code {
+    color: #a855f7 !important;
+  }
+
+  /* Ajusta bordas e seleções para o tom roxo */
+  ::selection {
+    background: #a855f7 !important;
+    color: #000 !important;
+  }
+
+  hr, table, td, th, pre {
+    border-color: #a855f7 !important;
+  }
+</style>
+
+
 # &HSQUARE | Strudel Tracks
+
+Bem-vindo ao repositório!
 
 Repositório dedicado aos experimentos, patterns e faixas de live coding criadas no [Strudel REPL](https://strudel.cc/). 
 Todos os códigos fontes estão versionados aqui para garantir o backup e facilitar a integração visual.
