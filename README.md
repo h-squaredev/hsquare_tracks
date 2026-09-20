@@ -14,7 +14,7 @@ Tabela centralizadora de tracks para uso integrado com o Miro.
 | **01 - CasteloAnimado** | [`CasteloAnimado.js`](./CasteloAnimado.js) | [▶ Executar][link_CasteloAnimado] | Brincando em copiar a trilha sonora do Castelo Animado |
 | **02 - Parabéns** | [`Parabens.js`](./Parabens.js) | [▶ Executar][link_Parabens] | Minha primeira música em código (feito por mim) tendo como referência a famosa celebração "Parabéns para você" |
 | **03 - TunDun_dun** | [`TunDun_dun.js`](./TunDun_dun.js) | [▶ Executar][link_TunDun_dun] | Experimento com audiovisual misturando os visuais psicodélicos do Hydra com as batidas eletrônicas do Strudel. Tem uma pegada glitch futurista, batidas marcadas de sintetizadores (clavisynth), texturas vocais robotizadas (gm_voice_oohs) e distorção analógica (crush, coarse). |
-| **04 - OneTwoThree** | [`OneTwoThree.js`](./OneTwoThree.js) | [▶ Executarl][link_TunDun_dun] | Após estudar conjuntos de filtros e funções, eu estava com muita vontade de usar alguma voz, e misturando tudo tivemos essa música louca. |
+| **04 - OneTwoThree** | [`OneTwoThree.js`](./OneTwoThree.js) | [▶ Executarl][link_OneTwoThree] | Após estudar conjuntos de filtros e funções, eu estava com muita vontade de usar alguma voz, e misturando tudo tivemos essa música louca. |
 
 
 ## Como reproduzir
