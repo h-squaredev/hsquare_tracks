@@ -27,9 +27,9 @@ Tabela centralizadora de tracks para uso integrado com o Miro.
 
 Ao analisar os códigos das faixas no Strudel, você pode notar que algumas linhas começam com um *underline* (ex: `_$bd_hh:` ou `_$espacial:`). 
 
-Eu utilizo esse `_` propositalmente para deixar essas camadas sonoras "mutadas" ou inativas no momento do *play* inicial. Como a ideia é tocar ao vivo, essa marcação me permite apagar os underlines gradualmente durante a execução, construindo a música e introduzindo novos elementos aos poucos.
+Eu utilizo esse *_* propositalmente para deixar essas camadas sonoras "mutadas" ou inativas no momento do *play* inicial. Como a ideia é tocar ao vivo, essa marcação me permite apagar os underlines gradualmente durante a execução, construindo a música e introduzindo novos elementos aos poucos.
 
-Se você quiser ouvir a versão completa da faixa imediatamente, basta remover todos os `_` antes dos cifrões (`$`) e pressionar `Ctrl + Enter`!
+Se você quiser ouvir a versão completa da faixa imediatamente, basta remover todos os *_* antes dos cifrões (`$`) e pressionar `Ctrl + Enter`!
 
 O mesmo vale para algumas linhas que estão comentadas ( `//` ). 
 
